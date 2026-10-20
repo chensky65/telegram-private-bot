@@ -9,7 +9,7 @@ keep_vars = true
 # Git 连接部署时必须声明 KV 绑定，否则后台绑定会被覆盖。
 [[kv_namespaces]]
 binding = "TOPIC_MAP"
-id = "eebb8094c2ef4799bf7b3d3d236140a6"
+id = "9c716042da1a4699b20ac70b86e1a592"
 
 # 建议在 Cloudflare 后台 Worker Settings → Variables 中配置：
 #   必需：BOT_TOKEN、SUPERGROUP_ID
