@@ -18,3 +18,12 @@ id = "9c716042da1a4699b20ac70b86e1a592"
 #   额外屏蔽词（可选）：SPAM_KEYWORDS（逗号分隔）
 #   静默拦截通知（可选）：SPAM_SILENCE_MODE=true
 #   Webhook 加密（可选）：WEBHOOK_SECRET（配合 setWebhook 的 secret_token）
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+persist = true
+
+
+
+
